@@ -1,0 +1,39 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+.content{
+    display: block ;
+    border: 1px solid  ;
+    text-align: center;
+    width: 300px;
+    
+}
+.hinh-anh img{
+    padding-top: 10px;
+    height: 150px;
+    width: 103px;
+}
+.thanh-vien{
+    text-align: center;
+    display: flex ;
+    padding-left:76px;
+}
+.vip{
+    color: red;
+    
+
+}
+.date{
+    display: flex;
+    padding-left:50px;
+}
+.d1{
+    color: blue;
+}
+#nd
+{
+    /* padding-top: 10%;
+    padding-left: 40%;
+    padding-right: 40%; */
+}

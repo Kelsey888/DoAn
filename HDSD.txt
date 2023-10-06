@@ -1,0 +1,2 @@
+1.Chạy file get trước với p
+2.Chạy file React

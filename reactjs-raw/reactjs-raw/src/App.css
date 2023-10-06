@@ -1,0 +1,205 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 233, 250);
+  display: block;
+  text-align: center;
+  margin:auto;
+
+}
+.content{
+  display: block ;
+  border: 1px solid  ;
+  text-align: center;
+  
+}
+.hinhanh {
+  width: 30%;
+  box-shadow:0cm 3px 1px;
+}
+
+
+.footer{
+  background-color: rgb(141, 141, 141);
+  text-align: center;
+}
+.content{
+  text-align: center;
+}
+.TenSP{
+  display: block;
+}
+.image-slider {
+  width: 100%;
+  height: 300px;
+ 
+  overflow: hidden;
+}
+.parent-container {
+  height: 100vh; /* Chiều cao 100% của viewport */
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.xemall{
+  margin-left: 93%;
+}
+
+/* CTSP */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.image-container img {
+  width: 40%;
+  
+  
+}
+.product-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+
+
+.info-container {
+  flex: 1 1 auto;
+}
+.small-image {
+  width: 100px;
+  height: auto;
+}
+.product-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  margin-right: 10px;
+}
+
+.info-container {
+  flex: 1;
+}
+
+.small-image {
+  width: 100px;
+  height: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option-group {
+  margin-bottom: 10px;
+}
+
+.option-group label {
+  font-weight: bold;
+}
+
+.option-group p {
+  margin: 5px 0;
+}
+
+.option-group input[type="radio"],
+.option-group input[type="checkbox"] {
+  display: none;
+}
+
+.option-group input[type="radio"] + label,
+.option-group input[type="checkbox"] + label {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.option-group input[type="radio"]:checked + label,
+.option-group input[type="checkbox"]:checked + label {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity button {
+  width: 50px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.quantity span {
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+table img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.thumbnail-images img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
